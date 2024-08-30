@@ -7,4 +7,4 @@ Create a new component that will be used to create a modal.
 Challenge_Angular will have a solution + comments of my attempts/approach
 
 ## References
-(Link to Medium article here)[https://medium.com/@greenFlag/how-to-easily-and-quickly-create-a-modal-in-angular-a2f82d5c11f6]
+[Link to Medium article here](https://medium.com/@greenFlag/how-to-easily-and-quickly-create-a-modal-in-angular-a2f82d5c11f6)
