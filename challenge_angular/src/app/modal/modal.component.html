@@ -1,9 +1,7 @@
 <button id="open-modal" (click)="openModal()">Open Modal</button>
-<div id="my-modal" class="modal" (click)="closeModal()">
-    <span class="close" (click)="closeModal()">&times;</span>
-    <div class="modal-content-browser">
-        <h2>Modal Title</h2>
-        <p>Some text in the Modal.</p>
-        <button (click)="activateClick()">Print something</button>
+<div role="modal" class="modal" (click)="closeModal()">
+    <span role="close-modal" class="close" (click)="closeModal()">&times;</span>
+    <div role="modal-content" class="modal-content-browser">
+        <ng-content></ng-content>
     </div>
 </div>

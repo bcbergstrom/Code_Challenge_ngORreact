@@ -61,3 +61,27 @@
 - A good amount of angular is different for me, as a react developer + my previous experience was in testing. I made it work, however.
 
 - I completed the rough "framework" utilizing the w3schools modal example. I'll then be working towards the "expandability" of the component
+
+### Expandability
+- After editing my component's CSS to allow full functionality (+ jog my memory on CSS + angular) I'll be able to add multiple options to actions and content to allow full modularity. Currently, you can pass in a general "angular component" to the parent component, rendering it in a specific way. 
+
+- Most likely, I'll learm how to pass down HTML/other components OR I'll do it in a "bootstrap"/"react" way, inwhich I create a bunch of components that interract with each other. 
+
+- I learned about ng-content tags, and that seems to be a solid way to go about the process of making it modular for the box setting. Now, I'll create a new component that'll be to initalize the "innards".
+
+- I'll be needing to figure out injection, as I'm doing this currently in a very "react" way
+
+## Conclusion
+
+### Struggles
+- I struggled figuring out some of the basic functionality, such as expandability, alongside the injection
+
+- Suprisingly, styling was a plethora of a lot easier than I thought. I enjoyed utilizing SCSS and CSS variables
+
+- I'm still learning, and I'm looking forward to learning more about Angular
+
+### Next Steps
+
+- I'll be practicing/researching Angular injections, as those clearly have a use here in making it more "open".
+
+- I'd also like to do more research into how API's are used in Angular Frameworks, alongside how API documentation is done in a front-end context. 

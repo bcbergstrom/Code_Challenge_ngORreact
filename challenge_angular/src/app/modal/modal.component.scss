@@ -2,11 +2,13 @@
 $background-color : #fff;
 $font-color : #000;
 $border-color : #ccc;
-$close-color: #aaa;
+$close-color: black;
 $close-hover-color: black;
+$alignment-margin: 15% auto;
 
 
-/* way I've found to set up variables for global stuff */
+/* way I've found to set up variables for global stuff to interact
+with angular - not positive if this is the best way*/
 :root {
     --modal : none;
 }
@@ -15,7 +17,7 @@ $close-hover-color: black;
 /* Modal Background/setup */
 .modal {
     display: var(--modal);
-    position: fixed;
+    position:fixed;
     z-index: 1;
     left: 0;
     top: 0;
@@ -29,11 +31,20 @@ $close-hover-color: black;
 /* Modal Content/Box */
 .modal-content-browser {
     background-color: $background-color;
-    margin: 15% auto;
-    padding: 20px;
+    margin: $alignment-margin;
+    padding: 1.5%;
     border: 1px solid $border-color;
     width: 80%;
 }
+.close {
+    color: $close-color;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: $alignment-margin;
+    padding: 1% 10%;
+}
+
 
 .close_hover,
 close:focus {
