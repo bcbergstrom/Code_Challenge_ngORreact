@@ -1,6 +1,6 @@
-<button id="open-modal" (click)="openModal()">Open Modal</button>
-<div role="modal" class="modal" (click)="closeModal()">
-    <span role="close-modal" class="close" (click)="closeModal()">&times;</span>
+<button aria-label="Open Modal" id="open-modal" (click)="openModal()">Open Modal</button>
+<div aria-label="modal" class="modal" (click)="closeModal()">
+    <span aria-label="close" role="close-modal" class="close" (click)="closeModal()">&times;</span>
     <div role="modal-content" class="modal-content-browser">
         <ng-content></ng-content>
     </div>
