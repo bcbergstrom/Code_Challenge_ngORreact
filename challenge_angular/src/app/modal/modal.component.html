@@ -1,1 +1,9 @@
-<p>modal works!</p>
+<button id="open-modal" (click)="openModal()">Open Modal</button>
+<div id="my-modal" class="modal" (click)="closeModal()">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <div class="modal-content-browser">
+        <h2>Modal Title</h2>
+        <p>Some text in the Modal.</p>
+        <button (click)="activateClick()">Print something</button>
+    </div>
+</div>

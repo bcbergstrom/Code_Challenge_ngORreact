@@ -55,3 +55,9 @@
 - I have a background in React, so I'll be utilizing react-type ways of developing things (in angular)
 
 - I'll then start by looking up simple ideas for building this. There is a "modal" component build with you, so I'll look at that, whilst also 
+
+- I found a Sizing idea using w3schools, and I'm going to use that. (credits in notes)
+
+- A good amount of angular is different for me, as a react developer + my previous experience was in testing. I made it work, however.
+
+- I completed the rough "framework" utilizing the w3schools modal example. I'll then be working towards the "expandability" of the component
